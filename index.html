@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Седона</title>
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">	
+	
+      <header class="main-header">	
+        <a href="index.html" class="header-logo">
+          <img src="img/logo.png" width="138" height="70" alt="Седона">
+        </a>
+        <nav class="main-menu">
+          <ul class="clearfix">
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="hotels.html">Гостиницы</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-header-photo">
+          <div class="photo-title-welcome">Welcome</div>
+          <div class="photo-title-gorgeous">to the gorgeous</div>
+          <div class="photo-title-sedona">Sedona</div>
+          <div class="photo-title-canyon">"Because the Grand Canyon sucks!"</div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="main-top">
+          <h1 class="main-title">
+            Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!
+          </h1>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        </section>
+
+        <section class="advantage-left clearfix">
+          <div class="advantage-text">
+            <h2>Настоящий городок</h2>
+            <p class="advantage-number">&mdash; №1 &mdash; </p>
+            <p>Седона не аттракцион для туристов, там течет своя жизнь</p>
+          </div>
+          <div class="advantage-photo"></div>
+        </section>
+      
+        <section class="features-row clearfix">
+          <div class="features-item features-house">
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </div>
+          <div class="features-item features-food">
+            <h3>Еда</h3>
+            <p>Всегда заказывай фирменный бургер, вы не разочаруетесь!</p>
+          </div>
+          <div class="features-item features-souvenir">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </div>        
+        </section>
+
+        <section class="advantage-right clearfix">
+          <div class="advantage-photo"></div>
+          <div class="advantage-text">
+            <h4>Там есть мост дьявола</h4>
+            <p class="advantage-number">&mdash;  №2 &mdash; </p>
+            <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
+          </div>
+        </section>
+        
+        <section class="advantage-bottom clearfix">
+          <div class="advantage-text">
+            <h5>Небольшая площадь</h5>
+            <p class="advantage-number">&mdash;  №3 &mdash; </p>
+            <p>Все достопримечательности находятся очень близко</p>
+          </div>
+          <div class="advantage-text">
+            <h5>Красивая дорога</h5>
+            <p class="advantage-number">&mdash;  №4 &mdash; </p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+          <div class="advantage-text">
+            <h5>Мало туристов</h5>
+            <p class="advantage-number">&mdash;  №5 &mdash; </p>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </div>        
+        </section>
+        
+        <section class="main-hotel-search">
+          <h6>Заинтересовались?</h6>
+          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <a href="#" class="main-search-btn brown-btn">Поиск гостиницы в Седоне</a>
+          <div class="main-search-form">
+            <form action="/echo" method="post">
+              <label class="date-field" for="date-in">Дата заезда:</label>
+		      <input id="date-in" type="text" name="date-in" placeholder="24 апреля 2014">
+              <label class="date-field" for="date-out">Дата выезда:</label>
+			  <input id="date-out" type="text" name="date-out" placeholder="4 июля 2014">
+              <div class="half-width">
+                <label class="adult" for="adult">Взрослые:</label>
+			    <a href="#" class="icon-minus"></a><input id="adult" type="text" value="2" name="adult"><a href="#" class="icon-plus"></a>
+			  </div>
+			  <div class="half-width">
+			    <label class="children" for="children">Дети:</label>
+			    <a href="#" class="icon-minus"></a><input id="children" type="text" value="0" name="children"><a href="#" class="icon-plus"></a>
+              </div>
+              <input class="main-form-btn blue-btn" type="submit" value="Найти">
+            </form>
+          </div>                        
+        </section>
+      </main>
+      
+      <footer class="main-footer clearfix">
+        <div class="main-map">
+	      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d704970.956434044!2d-111.95958742694202!3d34.83536682388765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1441909501671" height="593" allowfullscreen></iframe>
+	    </div> 
+        <div class="footer-content">	  
+          <p class="footer-hashtag">#visitsedona</p>
+          <div class="footer-social">
+            <a href="#" class="icon-twitter"></a>
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-youtube"></a>
+          </div>
+          <div class="footer-copyright">
+            <p>Website by</p>
+            <a href="#" title="HTML Academy"></a>
+          </div> 
+        </div>	  
+      </footer>
+	  
+    </div>
+	
+    <script src="js/script-min.js"></script>
+	
+  </body>
+</html>
